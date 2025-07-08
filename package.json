@@ -1,0 +1,20 @@
+{
+  "name": "wxd-jetton-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tact sources/jetton-minter.tact -o build/JettonMinter",
+    "deploy": "ts-node ./scripts/deploy.ts",
+    "mint": "ts-node ./scripts/mint.ts"
+  },
+  "dependencies": {
+    "@ton/blueprint": "^0.38.0",
+    "@ton/core": "^0.61.0",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.3.1",
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

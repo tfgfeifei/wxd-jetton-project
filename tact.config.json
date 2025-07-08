@@ -1,0 +1,9 @@
+{
+  "projects": [
+    {
+      "name": "JettonMinter",
+      "path": "sources/jetton-minter.tact",
+      "output": "build/JettonMinter" 
+    }
+  ]
+}
